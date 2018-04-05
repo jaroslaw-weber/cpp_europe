@@ -1,2 +1,3 @@
-# cpp_europe
-command line game written in modern c++ (c++17)
+# Cpp Europe
+
+Command line strategy game written in C++
