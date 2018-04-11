@@ -16,6 +16,7 @@ https://stackoverflow.com/questions/6500313/why-should-c-programmers-minimize-us
 
 include guards:
 https://stackoverflow.com/questions/8020113/c-include-guards
+https://stackoverflow.com/questions/4767068/header-guards-in-c
 
 rust cs c++ (lifetimes constraints):
 https://stackoverflow.com/questions/30011603/how-to-enable-rust-ownership-paradigm-in-c
@@ -29,13 +30,28 @@ https://stackoverflow.com/questions/1642028/what-is-the-operator-in-c?rq=1
 macros:
 https://stackoverflow.com/questions/96196/when-are-c-macros-beneficial
 
+https://stackoverflow.com/questions/2627166/difference-between-const-reference-and-normal-parameter
+
+https://stackoverflow.com/questions/650162/why-the-switch-statement-cannot-be-applied-on-strings
+
+https://stackoverflow.com/questions/2209224/vector-vs-list-in-stl
+
+https://stackoverflow.com/questions/1785416/c-naming-read-input-vs-readinput
+
+//closures
+https://www.cprogramming.com/c++11/c++11-lambda-closures.html
+
+
+# modern c++
+
 iterators:
 https://stackoverflow.com/questions/14373934/iterator-loop-vs-index-loop/14374550
 
 algorithms, iterators, containers - why?
 https://stackoverflow.com/questions/11947151/why-is-there-a-separation-of-algorithms-iterators-and-containers-in-c-stl/11948413#11948413
 
-# modern c++
+vectors, strings, etc:
+//todo
 
 boost:
 https://stackoverflow.com/questions/149268/boost-library
