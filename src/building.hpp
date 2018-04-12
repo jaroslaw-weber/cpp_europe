@@ -4,7 +4,7 @@
 
 enum Building
 {
-    Invalid,
+    InvalidBuildingType,
     House,
     School,
     Church

@@ -13,5 +13,5 @@ Building string_to_building(const std::string &name)
   if (name == "church")
     return Building::Church;
   std::cout << "invalid building name! : " << name << c_newline;
-  return Building::Invalid;
+  return Building::InvalidBuildingType;
 }

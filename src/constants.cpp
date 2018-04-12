@@ -1,1 +1,0 @@
-const auto c_newline = "\n";

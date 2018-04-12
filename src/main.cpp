@@ -84,7 +84,7 @@ void cmd_build(Country &country, const string &input)
   auto second = words[1];
   auto third = words[2];
   auto building_type = string_to_building(second);
-  valid_command = is_number(third) && building_type != Building::Invalid;
+  valid_command = is_number(third) && building_type != Building::InvalidBuildingType;
 
   if (!valid_command)
   {
@@ -133,6 +133,17 @@ int main()
     else if (cmd_check("help"))
     {
       cout << "available commands: info, help, build 'building_name' 'count', next turn, skip turns 'count'" << c_newline;
+    }
+    else if (cmd_check("research"))
+    {
+      auto research_name = input.substr(input.find(" ") + 1);
+      auto research_type = string_to_research(research_name);
+      if(research_type == Research::InvalidResearchType)
+      {
+          cout << "invalid research type" << c_newline;
+          continue;
+      }
+      country.research(research_type);
     }
     else
     {
